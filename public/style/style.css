@@ -3,11 +3,12 @@
 }
 
 article {
-  width: 100%;
+  width: 60%;
   background: rgb(255, 255, 255);
-  background: linear-gradient(0deg, #1855fd 10%, #0ce752 100%);
+  background: #00e1d9;
   box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
+  margin: auto;
   position: relative;
   transition: 0.25s;
 }
@@ -44,12 +45,15 @@ article > p {
 
 .collapsible {
   background-color: rgb(221, 25, 25);
+  transition: background-color 1s;
   color: black;
   cursor: pointer;
   padding: 18px;
-  margin: 0;
+  margin: 0 auto;
+  margin-top: 10px;
   border: none;
   text-align: center;
+  display: block;
   outline: none;
   font-size: 15px;
 }
@@ -57,16 +61,26 @@ article > p {
 .active,
 .collapsible:hover {
   background-color: rgb(22, 235, 193);
+  transition: background-color 1s;
 }
 
 .content {
   display: none;
-  padding: 2px;
-  width: 70%;
+  margin: auto;
+  padding-left: 20px;
+  width: 50%;
+  text-align: left;
+  background: #00e1d9;
+  color: #5e001f;
 }
 
 ul {
   list-style: none;
   padding: 4px;
   white-space: nowrap;
+}
+
+.rest {
+  margin-left: 30px;
+  font-size: 20px;
 }
