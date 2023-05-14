@@ -1,3 +1,7 @@
+:root { 
+  --blue: #00e1d9;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -5,7 +9,7 @@
 article {
   width: 60%;
   background: rgb(255, 255, 255);
-  background: #00e1d9;
+  background: var(--blue);
   box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
   margin: auto;
@@ -70,7 +74,7 @@ article > p {
   padding-left: 20px;
   width: 50%;
   text-align: left;
-  background: #00e1d9;
+  background: var(--blue);
   color: #5e001f;
 }
 
